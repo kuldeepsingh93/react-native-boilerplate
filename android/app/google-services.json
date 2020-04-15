@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "59673982363",
+    "firebase_url": "https://react-firebase-boilerpla-f0159.firebaseio.com",
+    "project_id": "react-firebase-boilerpla-f0159",
+    "storage_bucket": "react-firebase-boilerpla-f0159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59673982363:android:89cd0e952f0316862a9d3e",
+        "android_client_info": {
+          "package_name": "com.react_native_firebase_boilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59673982363-3m3fj87c5jdukm5iehn0kltf97h3j7pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.react_native_firebase_boilerplate",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "59673982363-cfbeqjvj25290oa65ef43at5tp000ft1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXD92bVkcjBdOhLLUaSc2FcdpsMrXDC8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59673982363-cfbeqjvj25290oa65ef43at5tp000ft1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
