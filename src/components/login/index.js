@@ -18,6 +18,7 @@ const Login = ({ navigation }) => {
       console.log('user returned: ', user)
       setUser(user);
       if (initializing) setInitializing(false);
+      navigation.navigate('screen1')
     } else {
       ToastAndroid.show(`User not present. Please login.`, ToastAndroid.SHORT);
       if (initializing) setInitializing(false)

@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
+import analytics from '@react-native-firebase/analytics';
 
 const Screen1 = () => {
   return (
@@ -7,6 +8,14 @@ const Screen1 = () => {
       <Text>
         This is screen 1
       </Text>
+      <Button
+        title='click me'
+        onPress={() =>
+          analytics().logEvent('generalevent', {        // it takes around an hour to log an event on firebase analytics.
+            item: 'it worked',
+          })
+        }
+      />
     </View>
   )
 }
