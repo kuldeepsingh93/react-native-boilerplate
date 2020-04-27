@@ -69,5 +69,7 @@ After cloning this repo for a new project, the following changes are recommended
 
    After all these changes, run ```./gradlew clean``` inside ```android``` folder and then try to build the app. Everything should smooth.
    In case you get any error while logging in via Facebook, then you might have to update the package name inside ```Facebook Developer Console``` with the new package name.
+   
+**That's all! You are good to go.**
 
 
