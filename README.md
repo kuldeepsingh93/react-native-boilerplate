@@ -1,3 +1,7 @@
+<h1>react-native-boilerplate</h1>
+
+A react-native repo with all the necessary firebase services and other functionalities integrated to give you a head start while starting something new.
+
 <h1>Motivation</h1>
 This repo is build with the focus on saving time while starting with a new project. It has all the necessary firebase services and other functionalities integrated which are needed in almost all the projects. This repo will, in turn, save a lot of time while developing something new. It is open source so can be improved and made better with time.
 
