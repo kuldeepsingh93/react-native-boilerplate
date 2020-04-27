@@ -6,6 +6,8 @@ import analytics from '@react-native-firebase/analytics';
 import Login from '../../components/login'
 import Screen1 from '../../components/OnboardingScreens/Screen1'
 import Screen2 from '../../components/OnboardingScreens/Screen2'
+import Screen3 from '../../components/OnboardingScreens/Screen3'
+import Screen4 from '../../components/OnboardingScreens/Screen4'
 
 const Stack = createStackNavigator();
 
@@ -53,6 +55,8 @@ const AppContainer = () => {
         <Stack.Screen name="signIn" component={Login} options={{ headerShown: false }} />
         <Stack.Screen name="screen1" component={Screen1} options={{ headerShown: false }} />
         <Stack.Screen name="screen2" component={Screen2} options={{ headerShown: false }} />
+        <Stack.Screen name="screen3" component={Screen3} options={{ headerShown: false }} />
+        <Stack.Screen name="screen4" component={Screen4} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   )
