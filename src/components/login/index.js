@@ -23,14 +23,11 @@ const Login = ({ navigation }) => {
       ToastAndroid.show(`User not present. Please login.`, ToastAndroid.SHORT);
       if (initializing) setInitializing(false)
     }
-
   }
 
   useEffect(() => {
-
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged)
     return subscriber; // unsubscribe on unmount
-
   }, [])
 
   if (initializing) return null
