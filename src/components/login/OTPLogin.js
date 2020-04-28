@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, TextInput } from 'react-native';
+import { Button, TextInput, Text } from 'react-native';
 import auth from '@react-native-firebase/auth';
 
 function PhoneSignIn() {
@@ -29,7 +29,7 @@ function PhoneSignIn() {
   if (!confirm) {
     return (
       <>
-        <TextInput value={phoneNumber} onChangeText={text => setPhoneNumber(text)} />
+        <TextInput value={phoneNumber} onChangeText={text => setPhoneNumber(text)} placeholder='Enter No.' />
         <Button
           title="Phone Number Sign In"
           onPress={signInWithPhoneNumber}
@@ -40,7 +40,7 @@ function PhoneSignIn() {
 
   return (
     <>
-      <TextInput value={code} onChangeText={text => setCode(text)} />
+      <TextInput value={code} onChangeText={text => setCode(text)} placeholder='Confirm Code' />
       <Button title="Confirm Code" onPress={() => confirmCode()} />
     </>
   );
