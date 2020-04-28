@@ -18,7 +18,7 @@ const Login = ({ navigation }) => {
       console.log('user returned: ', user)
       setUser(user);
       if (initializing) setInitializing(false);
-      navigation.navigate('screen1')
+      navigation.navigate('screen1', { user: user })
     } else {
       ToastAndroid.show(`User not present. Please login.`, ToastAndroid.SHORT);
       if (initializing) setInitializing(false)
@@ -34,10 +34,12 @@ const Login = ({ navigation }) => {
 
   if (!user) {
     return (
-      <View>
-        <FacebookLogin navigation={navigation} />
-        <GoogleLogin />
-        <PhoneSignIn navigation={navigation} />
+      <View style={{ alignItems: "center", justifyContent: "center", height: "100%" }}>
+        <View style={{ height: 200, width: '80%', justifyContent: 'space-between' }}>
+          <FacebookLogin navigation={navigation} />
+          <GoogleLogin />
+          <PhoneSignIn navigation={navigation} />
+        </View>
       </View>
     )
   } else {
