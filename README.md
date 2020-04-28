@@ -63,13 +63,33 @@ After cloning this repo for a new project, the following changes are recommended
 
 3. **Adding your App to Firebase Project Setting**
 
-   You need to add your updated app to the firebase project settings and add the ```SHA 1 certificate fingerprint``` to it which can be obtained from the other app already added their ```com.react_native_firebase_boilerplate``` and finally download the updated ```google-services.json``` file from the firebase settings and add it to the ```android/app``` folder in the project structure replacing the old file already added there.
+    Refer the screenshot below - 
+   
+    ![alt text](https://github.com/kuldeepsingh93/react-native-boilerplate/blob/master/src/ReadmeImages/firebase_setting.png)
+    
+    You need to add your updated app to the firebase project settings and add the ```SHA 1 certificate fingerprint``` to it which can be obtained from the other app already added their ```com.react_native_firebase_boilerplate``` and finally download the updated ```google-services.json``` file from the firebase settings and add it to the ```android/app``` folder in the project structure replacing the old file already added there.
    
 4. **Building the App**
 
    After all these changes, run ```./gradlew clean``` inside ```android``` folder and then try to build the app. Everything should smooth.
    In case you get any error while logging in via Facebook, then you might have to update the package name inside ```Facebook Developer Console``` with the new package name.
    
-**That's all! You are good to go.**
+<h1>Screenshots</h1>
+
+**Splash Screen**
+
+<img src="https://github.com/kuldeepsingh93/react-native-boilerplate/blob/master/src/ReadmeImages/splash_screen.jpg" alt="alt text" width="250" height="500">
+
+**Login Screen**
+
+<img src="https://github.com/kuldeepsingh93/react-native-boilerplate/blob/master/src/ReadmeImages/login_screen.jpg" alt="alt text" width="250" height="500">
+
+**Screen after Facebook Login**
+
+<img src="https://github.com/kuldeepsingh93/react-native-boilerplate/blob/master/src/ReadmeImages/next_screen.jpg" alt="alt text" width="250" height="500">
+
+
+   
+<h3><b>That's all! You are good to go.</b></h3>
 
 
